@@ -1,5 +1,5 @@
-// Este archivo maneja el endpoint para guardar las estadísticas
-
+// Importa el módulo necesario para manejar las solicitudes
+// En ESM, las importaciones deben ser de la siguiente forma
 let estadisticas = {
   jugadores: {},
   tiposLlegada: {}
