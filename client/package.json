@@ -1,15 +1,13 @@
 {
-  "name": "tu-proyecto",
+  "name": "analisis-situaciones",
   "version": "1.0.0",
-  "type": "module",
+  "type": "module",  // Esto es esencial para usar ESM
   "dependencies": {
-    "exceljs": "^4.2.1"
-  },
-  "devDependencies": {
+    "exceljs": "^4.2.1",
     "vercel": "^22.0.0"
   },
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build"
+    "dev": "vercel dev",   // Usado para desarrollo local
+    "build": "vercel build"  // Usado para construir el proyecto
   }
 }
